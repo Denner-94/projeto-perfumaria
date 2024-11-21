@@ -1,0 +1,45 @@
+@charset "utf-8";
+@media screen and (min-width: 912px){
+    /* CONFIGURAÇÃO GERAL */
+    html, body{
+        width: 100vw;
+        height: 100vh;
+        font-size: 14px;
+    }
+    /* ESTILO DA PAGINA */
+    div.card{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        max-width: 700px;
+        height: 500px;
+    }
+    div.box{
+        padding: 32px;
+        width: 50%;
+    }
+    h1{
+        font-size: 3.5rem;
+        line-height: 3.5rem;
+    }
+    /* ESTILO DAS IMAGENS */
+    div.capa{
+        overflow: hidden;
+        width: 50%;
+        height: 500px;
+    }
+    .capa > img.mobile{
+        display: none;
+    }
+    .capa > img.desktop{
+        display: block;
+        max-width: 100%;
+        height: auto;
+        object-fit: cover;
+        object-position: center;
+    }
+    /* ESTILO EM GRUPO */
+    .margin{
+        margin-bottom: 24px;
+    }
+}
