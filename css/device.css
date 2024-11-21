@@ -1,5 +1,5 @@
 @charset "utf-8";
-@media screen and (min-width: 912px){
+@media screen and (min-width: 768px){
     /* CONFIGURAÇÃO GERAL */
     html, body{
         width: 100vw;
@@ -7,15 +7,20 @@
         font-size: 14px;
     }
     /* ESTILO DA PAGINA */
-    div.card{
-        display: flex;
-        flex-direction: row;
+    div.container{
         width: 100%;
         max-width: 700px;
-        height: 500px;
+    }
+    div.card{
+        border-radius: 12px;
+        display: flex;
+        flex-direction: row;
+        overflow: hidden;
+        height: 100%;
+        max-height: 460px;
     }
     div.box{
-        padding: 32px;
+        padding: 24px 32px;
         width: 50%;
     }
     h1{
