@@ -14,12 +14,12 @@
 
 - Outra cois que não estava saindo bem eram as imagens, não conseguia de jeito algum fazer com que se adaptasem. Consegui resolver dessa forma também consultando o W3C.
 
-´´´´´´html
+````html
     <div class="capa">
         <img class="mobile" src="img/image-product-mobile.jpg" alt="imagem do perfume chanel">
         <img class="desktop" src="img/image-product-desktop.jpg" alt="imagem do perfume chanel">
     </div><!--capa-->
-´´´´´´
+````
 
 ````css
 div.capa{
@@ -73,8 +73,9 @@ div.capa{
 - Fraunces 700
 
 ## Links
-- [URL-da-solução]()
-- [URL-do-site-ativo]()
+- [URL-da-solução](https://github.com/Denner-94/projeto-perfumaria)
+- [URL-do-site-ativo no github](https://denner-94.github.io/projeto-perfumaria/)
+- [URL-do-site-ativo no Vercel](https://projeto-perfumaria.vercel.app/)
 
 ## Construído com
 
